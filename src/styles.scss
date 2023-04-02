@@ -3,3 +3,17 @@ body {
     background-color: darkgray;
     color: white;
 }
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.flex-align-center-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

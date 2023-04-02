@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #18203b;
+}
+#background-frame {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+#background-layer-1, #background-layer-2, #background-layer-3 {
+    width: 110%;
+    height: 110%;
+    background-size: cover;
+    position: absolute;
+    transition: 0.1s ease-out;
+    display: block;
+}
